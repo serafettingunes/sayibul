@@ -21,9 +21,13 @@ public class Main {
 		}
 		
 		if (varmi) {
-			System.out.println(aranansayi+" sayısı bulundu...");
 			
+			mesajVer(aranansayi);
 		}
 	}
 
+	public static void mesajVer(int aranan) {
+		System.out.println(aranan+" sayısı aranan sayıdır!!!");
+	}
+	
 }
